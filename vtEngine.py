@@ -42,7 +42,7 @@ class MainEngine(object):
         # 扩展模块
         self.ctaEngine = CtaEngine(self, self.eventEngine)
         # self.drEngine = DrEngine(self, self.eventEngine)
-        from drEngineEx import CtaDrEngine
+        from dataRecorder.drEngineEx import CtaDrEngine
         self.drEngine = CtaDrEngine(self, self.eventEngine)
         self.rmEngine = RmEngine(self, self.eventEngine)
         

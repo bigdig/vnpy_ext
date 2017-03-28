@@ -10,9 +10,9 @@
 
 import pymongo
 
-import drEngineEx
 from ctaAlgo.ctaBase import *
 from ctaAlgo.ctaTemplate import CtaTemplate as CtaTemplateOrginal
+from dataRecorder import drEngineEx
 from vtConstant import *
 
 STRATEGY_TRADE_DB_NAME = 'VnTrader_Strategy_Order_Db'
